@@ -1,3 +1,10 @@
+header{
+    background: violet;
+    font-family: 'Shrikhand', serif;
+    font-size: 250%;
+    text-align: center;
+
+}
 h1{
     color:darkolivegreen;
     font-family: 'Abril Fatface', serif;
