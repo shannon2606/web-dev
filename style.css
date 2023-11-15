@@ -1,22 +1,119 @@
 header{
-    background: violet;
+    color: #CD5C08;
     font-family: 'Shrikhand', serif;
-    font-size: 250%;
+    font-size: 80px;
     text-align: center;
-
 }
+
 h1{
-    color:darkolivegreen;
+    color:#445D48;
+    background-color: #C1D8C3;
     font-family: 'Abril Fatface', serif;
 }
+
 h3{
     color:black;
+    font-family: 'Work Sans', sans-serif;
 }
+
 h2{
-    color:salmon;
+    color:#E06469;
     font-family: 'Playfair Display', serif;
 }
+
 ul{
-    color:skyblue;
+    color:black;
     font-family: 'Work Sans', sans-serif;
+}
+
+label{
+    font-family: 'Work Sans', sans-serif;
+}
+
+html{
+    background-color: #F5E8B7;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #C1D8C3;
+    overflow-x: hidden;
+    padding: 20px;
+    align-items: center;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+  
+.sidenav a:hover {
+    color: #6A9C89;
+}
+  
+.main {
+    margin-left: 250px; /* Same as the width of the sidenav */
+}
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .content{flex: 1 80%;}
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+img {
+    width: 40%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.content {
+    flex-basis: 50%; /* Adjust as needed */
+    padding: 2px;
+    margin-left: 10px;
+    align-self: center;
+}
+
+.checkpt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.lesson {
+    text-align: center;
+    flex: 0 0 33.33%;
+    margin: 10px; 
+}
+
+.lesson img{
+    width: 100%;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: dimgrey;
 }
